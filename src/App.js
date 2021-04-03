@@ -3,7 +3,7 @@ import Book from './BookListjs';
 function App() {
   return (
     <div className="">
-      <Book />
+      <Book imageUrl={1} author="morteza" title="khaterat e sarbazi" />
     </div>
   );
 }
