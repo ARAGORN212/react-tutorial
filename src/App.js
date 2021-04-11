@@ -1,9 +1,10 @@
-import Book from './BookListjs';
+import BookofList from './BookListArrey';
 
 function App() {
   return (
     <div className="">
-      <Book imageUrl={1} author="morteza" title="khaterat e sarbazi" />
+      {/* <BookofList imageUrl={"/static/image/book_noun.jpg"} author="morteza" title="khaterat e sarbazi" /> */}
+      <BookofList />
     </div>
   );
 }
